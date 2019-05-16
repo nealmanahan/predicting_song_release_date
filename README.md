@@ -79,16 +79,16 @@ Future iterations of the project would include data from Nielsen Soundscan to mo
 
 ## Data Sources
 
- [Spotify API](https://developer.spotify.com/dashboard/login)  
- [Billboard](https://www.billboard.com/charts/hot-100)
- [Spotify Charts](https://spotifycharts.com/regional/us/weekly/latest)
+ [Spotify API](https://developer.spotify.com/dashboard/login) <br>  
+ [Billboard](https://www.billboard.com/charts/hot-100) <br>
+ [Spotify Charts](https://spotifycharts.com/regional/us/weekly/latest) <br>
 
 ---
 ## Sources
 
- [Billboard API Wrapper](https://github.com/guoguo12/billboard-charts)
- [Spotipy API Wrapper](https://github.com/plamere/spotipy)
- [Spotipy Documentation](https://spotipy.readthedocs.io/en/latest/)
+ [Billboard API Wrapper](https://github.com/guoguo12/billboard-charts) <br>
+ [Spotipy API Wrapper](https://github.com/plamere/spotipy) <br>
+ [Spotipy Documentation](https://spotipy.readthedocs.io/en/latest/) <br>
  [Add multiple csv files at once - Stack Overflow](https://stackoverflow.com/questions/20906474/import-multiple-csv-files-into-pandas-and-concatenate-into-one-dataframe) <br>
  [Remove duplicate strings from a list in python - Stack Overflow](https://stackoverflow.com/questions/8200342/removing-duplicate-strings-from-a-list-in-python) <br>
  [Match similar strings from different data sources - Stack Overflow](https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method?rq=1) <br>
