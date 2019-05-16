@@ -69,7 +69,7 @@ While ideally this analysis aimed to deal with artists of all sizes, there are s
 
 ## Limitations/Future Iterations
 
-Upon commencement of this project, it was my understanding that Soundscan data used to calculate Billboard chart positions was publicly available. The project unfortunately had to pivot to investigate the impact of streaming data as opposed to total sales numbers. This led to an expected lack of accuracy and was accounted for in analysis by limiting the scope of data to include only Spotify and Billboard. There were also challenges in the labeling of track names between Billboard and Spotify, which led to a workaround process that eliminated roughly 30 songs from the three years of data. While small compared to the overall dataset, any loss should to be avoided if possible. 
+Upon commencement of this project, it was my understanding that Soundscan data used to calculate Billboard chart positions was publicly available. The project unfortunately had to pivot to investigate the impact of streaming data as opposed to total sales numbers. This led to an expected lack of accuracy and was accounted for in analysis by limiting the scope of data to include only Spotify and Billboard. There were also challenges in the labeling of track names between Billboard and Spotify, which led to a workaround process that eliminated roughly 30 songs from the three years of data. While small compared to the overall dataset, any loss should be avoided if possible. 
 
 Future iterations of the project would include data from Nielsen Soundscan to more accurately predict release date. Other data sources including social media influence/followers and other streaming platforms’ data would also be included. The model and analysis do provide proof of concept that there is a trend in what the best period of time is to release a song.
 
@@ -79,8 +79,9 @@ Future iterations of the project would include data from Nielsen Soundscan to mo
 
 ## Data Sources
 
- [Spotify](https://developer.spotify.com/dashboard/login)  
- [Billboard](https://www.billboard.com/charts/hot-100)  
+ [Spotify API](https://developer.spotify.com/dashboard/login)  
+ [Billboard](https://www.billboard.com/charts/hot-100)
+ [Spotify Charts](https://spotifycharts.com/regional/us/weekly/latest)
 
 ---
 ## Sources
@@ -88,8 +89,8 @@ Future iterations of the project would include data from Nielsen Soundscan to mo
  [Billboard API Wrapper](https://github.com/guoguo12/billboard-charts)
  [Spotipy API Wrapper](https://github.com/plamere/spotipy)
  [Spotipy Documentation](https://spotipy.readthedocs.io/en/latest/)
- [Add multiple csv files at once - Stack Overflow](https://stackoverflow.com/questions/20906474/import-multiple-csv-files-into-pandas-and-concatenate-into-one-dataframe)
- [Remove duplicate strings from a list in python - Stack Overflow](https://stackoverflow.com/questions/8200342/removing-duplicate-strings-from-a-list-in-python)
- [Match similar strings from different data sources - Stack Overflow](https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method?rq=1)
+ [Add multiple csv files at once - Stack Overflow](https://stackoverflow.com/questions/20906474/import-multiple-csv-files-into-pandas-and-concatenate-into-one-dataframe) <br>
+ [Remove duplicate strings from a list in python - Stack Overflow](https://stackoverflow.com/questions/8200342/removing-duplicate-strings-from-a-list-in-python) <br>
+ [Match similar strings from different data sources - Stack Overflow](https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method?rq=1) <br>
 [Selecting Parameters for Random Forest Model - Towards Data Science, Author: Will Koehrsen](https://towardsdatascience.com/hyperparameter-tuning-the-random-forest-in-python-using-scikit-learn-28d2aa77dd74)
 
