@@ -59,7 +59,7 @@ Using data from the Billboard Hot 100 songs chart and Spotify, I set out to crea
 
 Through analysis of the data, a clear pattern emerged detailing when top songs are released. April and June had significantly higher concentrations of top songs streamed, while cumulatively Q4 (Late Fall/Winter) had a high output of top songs released. Reasons that lead me to believe this include the pre-existing retail trend of product released in time for holiday shopping, and releasing a potential “Song of the Summer” in Q2 (April/June), is also an ideal time for Grammy Award consideration.
 
-Based on this analysis and the Random Forest model used to determine release dates of existing top songs over the last 3 years, a lead up single should be released in May when the release schedule is much less crowded and still reaps the benefits mentioned above. A follow up single or album should be released in June to again capitalize on the award consideration season. Songs and albums that receive nominations and awards tend to see an additional bump in streams and overall sales after the Grammy Awards in Q!, which is another major benefit to this release strategy.
+Based on this analysis and the Random Forest model used to determine release dates of existing top songs over the last 3 years, a lead up single should be released in May when the release schedule is much less crowded and still reaps the benefits mentioned above. A follow up single or album should be released in June to again capitalize on the award consideration season. Songs and albums that receive nominations and awards tend to see an additional bump in streams and overall sales after the Grammy Awards in Q1, which is another major benefit to this release strategy.
 
 While ideally this analysis aimed to deal with artists of all sizes, there are some limitations in the availability of total streaming/sales data. Because Spotify top chart streaming numbers were the only “sales” data I was able to pull, these recommendations are only advised for established acts with a major label backing. Moving forward, with access to full proprietary data from Nielsen Soundscan, I am confident this analysis will evolve to make strong recommendations for artists of all career maturity levels.
 
@@ -80,8 +80,8 @@ Future iterations of the project would include data from Nielsen Soundscan to mo
 ## Data Sources
 
  [Spotify API](https://developer.spotify.com/dashboard/login)  
- [Billboard](https://www.billboard.com/charts/hot-100) <br>
- [Spotify Charts](https://spotifycharts.com/regional/us/weekly/latest) <br>
+ [Billboard Hot 100 Charts](https://www.billboard.com/charts/hot-100) <br>
+ [Spotify US Top 200 Charts](https://spotifycharts.com/regional/us/weekly/latest) <br>
 
 ---
 ## Sources
