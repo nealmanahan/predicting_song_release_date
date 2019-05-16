@@ -79,7 +79,7 @@ Future iterations of the project would include data from Nielsen Soundscan to mo
 
 ## Data Sources
 
- [Spotify API](https://developer.spotify.com/dashboard/login) <br>  
+ [Spotify API](https://developer.spotify.com/dashboard/login)  
  [Billboard](https://www.billboard.com/charts/hot-100) <br>
  [Spotify Charts](https://spotifycharts.com/regional/us/weekly/latest) <br>
 
